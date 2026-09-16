@@ -1,5 +1,6 @@
 # Archivos genericos
 *.log
+.vscode/settings.json
 .vscode
 .DS_Store
 Thumbs.bd
