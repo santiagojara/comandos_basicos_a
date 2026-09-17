@@ -251,31 +251,18 @@
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner"><div class="carousel-item active">
-  <img
-    src="img/fisei.jpg"
-    class="d-block w-100 h-100"
-    style="object-fit: cover;"
-    alt="FISEI"
-  />
-
-  <div class="container">
-    <div class="carousel-caption text-start">
-      <h1>FISEI</h1>
-      <p class="opacity-75">
-        Facultad de Ingeniería de Sistemas, Electrónica e Industrial.
-      </p>
-      <p>
-        <a class="btn btn-lg btn-primary" href="#">Ver más ...</a>
-      </p>
-    </div>
-  </div>
-</div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/fisei.jpg"
+              class="d-block w-100 object-fit-contain bg-dark"
+              alt="FISEI"
+            />
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1>FISEI</h1>
                 <p class="opacity-75">
-                  Facultad de Ingeniería de Sistemas, Electrónica e Industrial. 
+                  Facultad de Ingeniería de Sistemas, Electrónica e Industrial.
                 </p>
                 <p>
                   <a class="btn btn-lg btn-primary" href="#">Ver más ...</a>
@@ -284,19 +271,11 @@
             </div>
           </div>
           <div class="carousel-item">
-            
             <img
               src="img/mision.jpg"
-              class="d-block w-100 h-100"
-              style="object-fit: cover;"
+              class="d-block w-100 object-fit-contain bg-dark"
               alt="MISION"
-
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+            />
             <div class="container">
               <div class="carousel-caption">
                 <h1>MISION</h1>
@@ -309,18 +288,10 @@
           </div>
           <div class="carousel-item">
             <img
-            src="img/vision.jpg"
-            class="d-block w-100 h-100"
-            style="object-fit: cover;"
-            alt="VISION"
-            >
-
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+              src="img/vision.jpg"
+              class="d-block w-100 object-fit-contain bg-dark"
+              alt="VISION"
+            />
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1>VISION</h1>
@@ -512,12 +483,38 @@
       </div>
       <!-- /.container -->
       <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-end"><a href="#">Volver arriba</a></p>
-        <p>
-          &copy; 2026–2027 Compania, Inc. &middot;
-          <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a>
-        </p>
+      <footer class="container mt-5 border-top py-4">
+        <div class="row g-4">
+          <div class="col-md-6 text-center text-md-start">
+            <h5 class="mb-2">Universidad T&eacute;cnica de Ambato</h5>
+            <p class="mb-0 text-body-secondary">
+              Facultad de Ingenier&iacute;a en Sistemas, Electr&oacute;nica e Industrial
+              (FISEI)
+            </p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h6 class="mb-3">Enlaces r&aacute;pidos</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#">Inicio</a></li>
+              <li class="mb-2"><a href="#">Carreras</a></li>
+              <li><a href="#">Servicios</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3">
+            <h6 class="mb-3">Informaci&oacute;n</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#">Privacidad</a></li>
+              <li><a href="#">T&eacute;rminos y condiciones</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 mt-4 pt-3 border-top">
+          <p class="mb-0 text-body-secondary">
+            &copy; 2026 Universidad T&eacute;cnica de Ambato - FISEI<br />
+            Todos los derechos reservados.
+          </p>
+          <a href="#">Volver arriba</a>
+        </div>
       </footer>
     </main>
     <script
